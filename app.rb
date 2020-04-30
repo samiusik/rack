@@ -1,9 +1,6 @@
 require_relative 'time_format'
 
 class App
-  def some_action
-    raise "I'm running on port #{request.port}."
-  end
 
   def call(env)
     perform_response(env)
